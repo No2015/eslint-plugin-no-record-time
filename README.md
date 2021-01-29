@@ -35,7 +35,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "no-record-time/rule-name": 2
+        "no-record-time/no-record-time": 2
     }
 }
 ```
