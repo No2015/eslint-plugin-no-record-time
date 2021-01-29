@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-no-record-time",
+  "version": "2.0.0",
+  "description": "禁止定时器空运行",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "陈其文",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive",
+    "ver": "npm version patch",
+    "minor": "npm version minor",
+    "major": "npm version major",
+    "pub": "npm publish"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "mocha": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
